@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:fitsSystemWindows="true"
+  android:orientation="vertical">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:paddingBottom="5dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:orientation="vertical">
+
+      <include layout="@layout/appointment_partner_cardview" />
+
+      <include layout="@layout/appointment_activity_cardview" />
+
+      <include layout="@layout/appointment_date_cardview" />
+
+      <include layout="@layout/appointment_map_cardview" />
+
+    </LinearLayout>
+
+    <Button
+      android:id="@+id/button_appointment"
+      android:layout_width="250dp"
+      android:layout_height="50dp"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="5dp"
+      android:layout_marginTop="5dp"
+      android:background="@drawable/shape_appointment_button_roundcorner"
+      android:elevation="6dp"
+      android:fontFamily="@font/montserrat"
+      android:text="@string/confirm"
+      android:textColor="@color/md_white_1000" />
+
+  </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

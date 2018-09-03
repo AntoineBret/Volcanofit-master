@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.sportsplatform.ab.sportsplatform">
+
+  <application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <activity
+      android:name=".startup.BootUpActivity"
+      android:label="@string/app_name"
+      android:theme="@style/AppTheme">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+
+    <activity
+      android:name=".startup.setup.FirstSetupActivity"
+      android:label="@string/firstsetup_activity_name"/>
+
+    <activity
+      android:name=".startup.StartSignInActivity"
+      android:label="@string/start_signin_activity_name"/>
+
+    <activity android:name=".ManagementSignInActivity"/>
+
+
+    <activity
+      android:name=".HomeActivity"
+      android:label="@string/home_activity_name" />
+
+    <activity
+      android:name="FindActivityActivity"
+      android:label="@string/findactivity_activity_name"
+      android:parentActivityName=".HomeActivity" >
+      <meta-data
+        android:name="android.support.PARENT_ACTIVITY"
+        android:value=".HomeActivity" />
+    </activity>
+
+    <activity
+      android:name="FindPartnerActivity"
+      android:label="@string/findpartner_activity_name"
+      android:parentActivityName=".HomeActivity" >
+      <meta-data
+        android:name="android.support.PARENT_ACTIVITY"
+        android:value=".HomeActivity" />
+    </activity>
+
+    <activity
+      android:name="AppointmentActivity"
+      android:label="@string/appointment_activity_name"/>
+
+  </application>
+
+</manifest>
+

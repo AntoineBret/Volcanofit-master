@@ -1,0 +1,140 @@
+<resources>
+  <string name="app_name">Volcanofit</string>
+
+  <!--  HomeActivity Drawer -->
+
+  <string name="openDrawer">Open navigation drawer</string>
+  <string name="closeDrawer">Close navigation drawer</string>
+  <string name="navHeaderSignOut">Se déconnecter</string>
+
+  <!-- Title drawer menu -->
+
+  <string name="title_home">Accueil</string>
+
+  <!--  Coaching -->
+
+  <string name="SectionDrawer_activity">Activités</string>
+
+  <string name="title_coaching_sport">Sportives</string>
+  <string name="desc_coaching_sport"></string>
+
+  <string name="title_coaching_company">Team building</string>
+  <string name="desc_coaching_company"></string>
+
+  <string name="title_coaching_health">Bien être</string>
+  <string name="desc_coaching_health"></string>
+
+  <!--  Account -->
+
+  <string name="SectionDrawer_account">Mon compte</string>
+
+  <string name="title_account_profil">Profil</string>
+  <string name="desc_account_profil"></string>
+
+  <string name="title_account_dashboard">Tableau de bord</string>
+  <string name="desc_account_dashboard"></string>
+
+  <string name="title_account_friend">Amis</string>
+  <string name="desc_account_friend"></string>
+
+  <string name="title_account_group">Groupes</string>
+  <string name="desc_account_group"></string>
+
+  <!--  Communauté -->
+
+  <string name="SectionDrawer_community">Communauté</string>
+
+  <string name="title_community_news">News</string>
+  <string name="desc_community_news"></string>
+
+  <string name="title_community_discussion">Discussions</string>
+  <string name="desc_community_discussion"></string>
+
+  <string name="title_community_partner">Partenaires</string>
+  <string name="desc_community_partner"></string>
+
+
+  <!--  Contact -->
+
+  <string name="SectionDrawer_contact">Social</string>
+
+  <string name="title_contact_main">Nous contacter</string>
+  <string name="desc_contact_main">Les infos dont vous avez besoin</string>
+
+  <string name="title_contact_facebook">Facebook</string>
+
+  <string name="title_contact_twitter">Twitter</string>
+
+  <string name="title_contact_linkedin">LinkedIn</string>
+
+  <!--  Find Activity : activity/partner/etc-->
+
+  <string name="activity_findactivity_toolbar">Activités</string>
+  <string name="activity_findactivity_searchbar">Chercher une activité</string>
+
+  <string name="activity_findpartner_toolbar">Partenaires</string>
+  <string name="activity_findpartner_searchbar">Chercher un partenaire</string>
+
+  <!--  GoogleActivity -->
+
+  <string name="title_text">Google Sign-In\nQuickstart</string>
+  <string name="signed_out">Signed out</string>
+  <string name="sign_out">Sign Out</string>
+  <string name="debugSignOut">Successfully Signed Out!</string>
+  <string name="disconnect">Disconnect</string>
+  <string name="desc_google_icon">Google Logo</string>
+  <string name="signed_in_fmt">Signed in as: %s</string>
+  <string name="connections_fmt">Connections: %1$s</string>
+  <string name="msg_contacts_failed">Get contacts failed.</string>
+  <string name="refresh_token">Get Fresh Token</string>
+  <string name="server_client_id">262b4db409b7f8233f80ae9e51476dd3</string>
+  <string name="signed_in">Signed in</string>
+  <string name="id_token_fmt">ID Token: %s</string>
+  <string name="loading_please_wait">Please wait while loading data!</string>
+
+  <!--  AppointmentFragment -->
+
+  <string name="switch_datetime_picker_name">Switch DateTime Picker</string>
+  <string name="open_datetime_dialog">Open DateTime Dialog</string>
+  <string name="open_datetime_dialog_with_neutral_button">Open DateTime Dialog with Neutral Button</string>
+  <string name="clean">Clean</string>
+
+  <!-- Into Screen Strings -->
+  <string name="loading">Loading...</string>
+  <string name="welcomeScreen">Welcome to Volcanofit!</string>
+  <string name="WSdescription_slogan">The ultimate lockscreen that you make!\n</string>
+  <string name="signInScreenAccept">By pressing [Sign In], you hereby allow Volcanofit to access your Google profile and Volcanofit will proceed to setting up the basic functions of your sport app.</string>
+  <string name="signInNote">Note: Your profile information will NOT be shared with anyone or any 3rd party, it is mainly for the use of backing up and restoring app settings</string>
+  <string name="disableSystemLockIntro">Turn off System Lock\n</string>
+  <string name="enableNotifyAccessIntro">Allow Notifications/Accessibility\n</string>
+  <string name="setupDoneIntro">You are All Set!</string>
+
+  <!-- Rationale for asking for the numerous permissions -->
+  <string name="permission_rationale">The app needs to be able to access your device in order to function like the system lockscreen and do more (The information will not be shared whatsoever!)</string>
+  <string name="service_name">Trinity Locker</string>
+
+  /* Back arrow animation to hamburger*/
+
+  <string name="menu_vector_path" translatable="false">M20 30,L80 30,M20 50,L80 50,M20 70,L80 70</string>
+  <string name="back_vector_path" translatable="false">M50 25,L80 50,M20 50,L80 50,M50 75,L80 50</string>
+  <string name="add_vector_path" translatable="false">M50 20,L50 80,M20 50,L80 50</string>
+  <string name="remove_vector_path" translatable="false">M60 25,L75 45,M25 75,L60 25</string>
+
+  <!--  Other -->
+  <string name="test">test</string>
+  <string name="appointment">Prendre rendez-vous</string>
+  <string name="booking">Prendre une réservation</string>
+  <string name="confirm">Confirmer</string>
+
+  <string name="home_activity_name">HomeActivity</string>
+  <string name="firstsetup_activity_name">FirstSetupActivity</string>
+  <string name="start_signin_activity_name">StartSignInActivity</string>
+  <string name="findactivity_activity_name">FindActivityActivity</string>
+  <string name="findpartner_activity_name">FindPartnerActivity</string>
+  <string name="appointment_activity_name">AppointmentActivity</string>
+  <string name="date_appointment">Date de rendez-vous</string>
+  <string name="map_appointment">Lieu de rendez-vous</string>
+  <string name="partner_appointment">Nom de l\'intervenant</string>
+  <string name="activity_appointment">Choix de l\'activité</string>
+
+</resources>

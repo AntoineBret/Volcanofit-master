@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <dimen name="google_top_margin">100dp</dimen>
+  <dimen name="activity_horizontal_margin">16dp</dimen>
+  <dimen name="activity_vertical_margin">16dp</dimen>
+  <dimen name="fab_margin">16dp</dimen>
+  <dimen name="cardMarginHorizontal">10dp</dimen>
+  <dimen name="cardMarginVertical">8dp</dimen>
+  <dimen name="cardview_title_padding">5dp</dimen>
+  <dimen name="cardview_subtitle_padding">5dp</dimen>
+  <dimen name="cardview_desc_padding">5dp</dimen>
+  <dimen name="action_bar_size">56dp</dimen>
+  <dimen name="action_bar_sizex2">112dp</dimen>
+  <dimen name="action_bar_sizex3">168dp</dimen>
+  <dimen name="action_bar_sizex4">224dp</dimen>
+
+
+
+</resources>

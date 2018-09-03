@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:fitsSystemWindows="false">
+
+  <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+      android:id="@+id/findpartner_toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/action_bar_sizex2"
+      android:background="@drawable/splash_background"
+      android:minHeight="?attr/actionBarSize"
+      app:layout_collapseMode="pin"
+      android:theme="@style/myToolbarTheme" >
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="@string/activity_findpartner_toolbar"
+        android:textColor="@android:color/white"
+        android:textSize="18dp" />
+
+    </android.support.v7.widget.Toolbar>
+
+  </FrameLayout>
+
+  <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+      android:id="@+id/findpartner_recycler_view"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="140dp"
+      android:clipToPadding="false"
+      android:scrollbars="vertical"
+      app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <com.arlib.floatingsearchview.FloatingSearchView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginTop="70dp"
+      android:background="@drawable/shape_searchbar_roundcorner"
+      app:floatingSearch_searchHint="@string/activity_findpartner_searchbar"
+      app:floatingSearch_suggestionsListAnimDuration="250"
+      app:floatingSearch_showSearchKey="true"
+      app:floatingSearch_close_search_on_keyboard_dismiss="true"/>
+
+  </FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>
